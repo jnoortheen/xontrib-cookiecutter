@@ -36,6 +36,9 @@ project_slug [my-super-xontrib]:
 project_short_description [A short description of the project]: It's my super xontrib!
 version [0.1.0]:
 
+# optionally use github-cli to create repo
+$ gh repo create
+
 $ tree
 .
 `-- xontrib-my-super-xontrib
@@ -45,6 +48,11 @@ $ tree
     `-- xontrib
         `-- my-super-xontrib.xsh
 
+$ git push
+
+$ poetry publish
+
+# in your xonsh environment
 $ pip install -U xontrib-my-super-xontrib/
 Successfully installed xontrib-my-super-xontrib-0.1.0
 

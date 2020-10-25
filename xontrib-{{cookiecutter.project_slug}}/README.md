@@ -2,23 +2,22 @@
 {{cookiecutter.project_short_description}}
 </p>
 
-<p align="center">  
+<p align="center">
 If you like the idea click ⭐ on the repo and stay tuned.
 </p>
-
 
 ## Installation
 
 To install use pip:
 
-```bash
+``` bash
 xpip install xontrib-{{cookiecutter.project_slug}}
 # or: xpip install -U git+https://github.com/{{cookiecutter.github_username}}/xontrib-{{cookiecutter.project_slug}}
 ```
 
 ## Usage
 
-```bash
+``` bash
 xontrib load {{cookiecutter.project_slug}}
 # TODO: what's next?
 ```
@@ -33,8 +32,7 @@ xontrib load {{cookiecutter.project_slug}}
 
 ## Credits
 
-This package was created with [xontrib cookiecutter template](https://github.com/xonsh/xontrib-cookiecutter).
-
+This package was created with [xontrib cookiecutter template](https://github.com/jnoortheen/xontrib-cookiecutter).
 
 --------------------
 
@@ -44,12 +42,12 @@ After you create the xontrib repository you can do some helpful tasks to spread 
 
 **Repository name**. It's a good practice to add `xontrib-` prefix before the name of your repository. It helps Github search find it.
 
-**Add topics to the repository**. To show the xontrib repository in Github Topics please add topics `xonsh` and `xontrib` to the repository "About" setting. Also add thematic topics, for example,  `ssh` if your xontrib helps work with `ssh`.
+**Add topics to the repository**. To show the xontrib repository in Github Topics please add topics `xonsh` and `xontrib` to the repository "About" setting. Also add thematic topics, for example, `ssh` if your xontrib helps work with `ssh` .
 
-**Easiest way to publish your xontrib to PyPi via Github Actions**. Users can install your xontrib via `pip install xontrib-myxontrib`. Easiest way to achieve it is to use Github Actions:
+**Easiest way to publish your xontrib to PyPi via Github Actions**. Users can install your xontrib via `pip install xontrib-myxontrib` . Easiest way to achieve it is to use Github Actions:
 
 1. Register to https://pypi.org/ and [create API token](https://pypi.org/help/#apitoken).
-2. Go to repository "Settings" - "Secrets" and add keys `PYPI_USERNAME` and `PYPI_PASSWORD`.
+2. Go to repository "Settings" - "Secrets" and add keys `PYPI_USERNAME` and `PYPI_PASSWORD` .
 3. Click "Actions" link on your Github repository.
 4. Click "Set up this workflow" on "Publish Python Action".
 5. Commit the config without any changes.
