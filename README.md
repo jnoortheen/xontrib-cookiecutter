@@ -36,16 +36,14 @@ project_slug [my-super-xontrib]:
 project_short_description [A short description of the project]: It's my super xontrib!
 version [0.1.0]:
 
-$ tree xontrib-my-super-xontrib
-xontrib-my-super-xontrib
-├── LICENSE
-├── MANIFEST.in
-├── README.rst
-├── requirements.txt
-├── setup.cfg
-├── setup.py
-└── xontrib
-    └── my-super-xontrib.xsh
+$ tree
+.
+`-- xontrib-my-super-xontrib
+    |-- LICENSE
+    |-- README.md
+    |-- pyproject.toml
+    `-- xontrib
+        `-- my-super-xontrib.xsh
 
 $ pip install -U xontrib-my-super-xontrib/
 Successfully installed xontrib-my-super-xontrib-0.1.0
