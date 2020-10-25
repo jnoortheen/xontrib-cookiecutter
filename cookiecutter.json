@@ -1,10 +1,13 @@
 {
-    "full_name": "Your name",
-    "email": "your@email.address",
-    "github_username": "Your github username",
-    "project_name": "Name of the project (for humans, without xontrib- prefix)",
-    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
-    "project_short_description": "A short description of the project.",
-    "version": "0.1.0",
-    "_extensions": ["jinja2_time.TimeExtension"]
+  "full_name": "Your name",
+  "email": "your@email.address",
+  "github_username": "your-github-username",
+  "project_name": "Name of the project (for humans, without xontrib- prefix)",
+  "project_slug": "{{cookiecutter.project_name | slugify }}",
+  "project_short_description": "A short description of the project.",
+  "version": "0.1.0",
+  "_extensions": [
+    "jinja2_time.TimeExtension",
+    "cookiecutter.extensions.SlugifyExtension"
+  ]
 }
