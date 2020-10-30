@@ -21,13 +21,13 @@ To create a `xontrib` from this template just run:
 
 ``` bash
 pip install cookiecutter
-cookiecutter gh:jnoortheen/xontrib-cookiecutter
+cookiecutter gh:jnoortheen/xontrib-cookiecutter-poetry
 ```
 
 ## Example
 
 ``` bash
-$ cookiecutter gh:jnoortheen/xontrib-cookiecutter
+$ cookiecutter gh:jnoortheen/xontrib-cookiecutter-poetry
 full_name [Your name]: Snail
 email [Your address email]: snail@snail.snail
 github_username [Your github username]: snail
